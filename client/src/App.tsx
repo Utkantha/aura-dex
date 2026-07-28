@@ -11,7 +11,7 @@ import { GoogleOAuthProvider } from '@react-oauth/google';
 function App() {
   return (
     <Provider store={store} >
-      <BrowserRouter>
+      <BrowserRouter basename="/aura-dex">
         <GoogleOAuthProvider clientId={import.meta.env.VITE_GOOGLE_CLIENT_ID || "dummy-client-id"}>
           <Mainroutes />
           <Toaster richColors position="top-right" closeButton />
