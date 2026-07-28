@@ -1,6 +1,6 @@
-# PokéDex
+# Aura-dex
 
-Welcome to **PokéDex**, a modern and fully responsive Pokémon web application built using **React** for the frontend and **Node.js** for the backend. This project offers a seamless and interactive experience for browsing, searching, and exploring detailed information about all your favorite Pokémon.
+Welcome to **Aura-Dex**, a modern and fully responsive Pokémon web application built using **React** for the frontend and **Node.js** for the backend. This project offers a seamless and interactive experience for browsing, searching, and exploring detailed information about all your favorite Pokémon.
 
 Powered by the **PokéAPI**, PokéDex delivers real-time data with a clean UI and smooth performance. Whether you're a casual fan or a true Pokémon Master, this app is designed to make your Pokémon journey engaging and intuitive.
 
