@@ -47,7 +47,7 @@ export function LoginForm({
 
             navigate("/dashboard")
         },
-        onError: (error) => {
+        onError: () => {
             dispatch({ type: GET_USER_FAILURE })
         },
         flow: 'implicit', 
