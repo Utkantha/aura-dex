@@ -1,6 +1,5 @@
 import { Dialog, DialogContent, DialogClose } from "@/components/ui/dialog";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import type { AppState } from "@/lib/types";
 import { getSinglePokemon } from "@/redux/AppReducer/action";
 import { motion, AnimatePresence } from "framer-motion";
@@ -10,7 +9,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { getColorClass } from "./dashboardUtils";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useSwipeable } from "react-swipeable";
-import { Badge } from "@/components/ui/badge";
 import { Badge } from "@/components/ui/badge";
 
 interface PokemonPopupProps {
